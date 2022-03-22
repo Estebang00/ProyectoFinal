@@ -1,0 +1,38 @@
+.row{
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+div{
+    background-color: antiquewhite;
+}
+
+#nombre{
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#fotoperfil{
+    margin-top: 0%;
+}
+
+@media (min-width:580px){
+    #fotoperfil{
+        position: relative;
+        width: 100%;
+        border-radius: 100%;
+        left:0%;
+        top: 10px;
+    }
+}
+
+@media (max-width: 579px){
+    #fotoperfil{
+        position: relative;
+        border-radius: 100%;
+        left: 2%;
+        top: 50px;
+        width: 15%;
+    } 
+}

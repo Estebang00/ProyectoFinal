@@ -1,0 +1,17 @@
+app-redes-sociales{
+    margin-top: 5px;
+    margin-right: 100px;
+    float: right
+
+}
+
+div{
+    background-color: antiquewhite;
+}
+
+div {
+    transition: all 2s ease;
+    border: 5px solid red;
+  }
+  div:hover {
+    border: 5px solid green;}
